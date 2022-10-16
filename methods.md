@@ -18,3 +18,4 @@ arr.sort - sorts array calling comparing function;
 arr.reverse - reverses the order of elements in array;
 arr.split - splites strings into elements in new array; arr.split('') returns array with separate chars;
 arr.join(glue) - glues elements of array into string;
+arr.reduce - is used to calculate some single value based on the entire array;
