@@ -15,3 +15,4 @@ arr.findLastIndex - finds element from end of array and returns its index; dont 
 arr.filter - finds elements that passed the condition;
 arr.map - calls the function for each item of array and returns new array of results;
 arr.sort - sorts array calling comparing function;
+arr.reverse - reverses the order of elements in array;
