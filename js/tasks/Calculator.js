@@ -14,13 +14,13 @@ function Calculator() {
         }
         return this.methods[op](a, b);
     }
-    this.addMethods = function(name, func){
+    this.addMethods = function (name, func) {
         this.methods[name] = func;
     }
 }
 
 let calc = new Calculator;
-calc.addMethods('*', (a, b)=> a * b);
-calc.addMethods('/', (a, b)=> a / b);
+calc.addMethods('*', (a, b) => a * b);
+calc.addMethods('/', (a, b) => a / b);
 let expression = prompt('Enter expression', '');
 console.log(calc.calculate(expression));
